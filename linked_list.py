@@ -70,12 +70,14 @@ class LinkedList:
 		return string
 
 
+
 linked_list = LinkedList()
 linked_list.append(1)
 linked_list.append(2)
 linked_list.append(3)
 linked_list.prepend(4)
 print(linked_list)
+print(linked_list[0])
 
 while True:
 	print("1. Append")
